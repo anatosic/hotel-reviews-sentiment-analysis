@@ -15,17 +15,13 @@ Key Challenge: Both models struggled with mixed-sentiment reviews (e.g., polite 
 🛠️ Tech Stack
 Python, Hugging Face (transformers, datasets, evaluate), PyTorch, TensorBoard, Pandas, NumPy, Scikit-learn.
 
-## 🚀 How to Run
-1. Clone the repo:
-   ```bash
-   git clone https://github.com/anatosic/hotel-reviews-sentiment-analysis.git
-```
+🚀 How to Run
+Clone the repo:
 
-2. Install dependencies:
-   ```bash
+Bash
+git clone https://github.com/anatosic/hotel-reviews-sentiment-analysis.git
+Install dependencies:
+
+Bash
 pip install -q transformers datasets evaluate bertviz accelerate torch pandas numpy scikit-learn
-```
-
-3. Run `hotel_sentiment_analysis.ipynb` in Google Colab or Jupyter Notebook.
-
----
+Run hotel_sentiment_analysis.ipynb in Google Colab or Jupyter Notebook.
